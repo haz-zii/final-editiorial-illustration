@@ -1,0 +1,63 @@
+<svg width="240" height="125" viewBox="0 0 240 125" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="eye2-clip">
+      <path d="M-120,0 C-90,-68.64 90,-68.64 120,0 C90,68.64 -90,68.64 -120,0 Z"/>
+    </clipPath>
+    <linearGradient id="grid-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D100EF;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#D100EF;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(120, 62.5)">
+    <g clip-path="url(#eye2-clip)">
+      <!-- Perspective Grid Lines -->
+      <g stroke="url(#grid-glow)" stroke-width="1.6" opacity="0.55">
+        <!-- Vertical converging lines -->
+        <line x1="0" y1="0" x2="-90" y2="-60"/>
+        <line x1="0" y1="0" x2="-60" y2="-60"/>
+        <line x1="0" y1="0" x2="-30" y2="-60"/>
+        <line x1="0" y1="0" x2="0" y2="-60"/>
+        <line x1="0" y1="0" x2="30" y2="-60"/>
+        <line x1="0" y1="0" x2="60" y2="-60"/>
+        <line x1="0" y1="0" x2="90" y2="-60"/>
+        
+        <line x1="0" y1="0" x2="-90" y2="60"/>
+        <line x1="0" y1="0" x2="-60" y2="60"/>
+        <line x1="0" y1="0" x2="-30" y2="60"/>
+        <line x1="0" y1="0" x2="0" y2="60"/>
+        <line x1="0" y1="0" x2="30" y2="60"/>
+        <line x1="0" y1="0" x2="60" y2="60"/>
+        <line x1="0" y1="0" x2="90" y2="60"/>
+        
+        <!-- Horizontal grid lines -->
+        <line x1="-72" y1="-48" x2="72" y2="-48"/>
+        <line x1="-60" y1="-36" x2="60" y2="-36"/>
+        <line x1="-48" y1="-24" x2="48" y2="-24"/>
+        <line x1="-36" y1="-12" x2="36" y2="-12"/>
+        <line x1="-36" y1="12" x2="36" y2="12"/>
+        <line x1="-48" y1="24" x2="48" y2="24"/>
+        <line x1="-60" y1="36" x2="60" y2="36"/>
+        <line x1="-72" y1="48" x2="72" y2="48"/>
+      </g>
+      
+      <!-- Pupil with opposite flow grid -->
+      <g>
+        <circle cx="0" cy="0" r="15" fill="black" stroke="#ccc" stroke-width="1.2"/>
+        <g stroke="#D100EF" stroke-width="1" opacity="0.3">
+          <line x1="0" y1="0" x2="-12" y2="-9"/>
+          <line x1="0" y1="0" x2="12" y2="-9"/>
+          <line x1="0" y1="0" x2="-12" y2="9"/>
+          <line x1="0" y1="0" x2="12" y2="9"/>
+          <line x1="-9" y1="-6" x2="9" y2="-6"/>
+          <line x1="-9" y1="6" x2="9" y2="6"/>
+        </g>
+      </g>
+    </g>
+    
+    <!-- Eye outline -->
+    <path d="M-120,0 C-90,-68.64 90,-68.64 120,0 C90,68.64 -90,68.64 -120,0 Z" 
+          fill="none" stroke="white" stroke-width="1.5"/>
+  </g>
+</svg>
+

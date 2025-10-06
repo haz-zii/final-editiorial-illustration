@@ -1,0 +1,51 @@
+<svg width="240" height="125" viewBox="0 0 240 125" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="eye1-clip">
+      <path d="M-120,0 C-90,-68.64 90,-68.64 120,0 C90,68.64 -90,68.64 -120,0 Z"/>
+    </clipPath>
+    <linearGradient id="ribbon1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F20045;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#F20045;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="ribbon2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#861DC2;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#861DC2;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="ribbon3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#20D6FF;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#20D6FF;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="ribbon4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFE14A;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#FFE14A;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(120, 62.5)">
+    <g clip-path="url(#eye1-clip)">
+      <!-- Animated Ribbons -->
+      <path d="M-90,-12 Q-60,-24 -30,-12 Q0,-24 30,-12 Q60,-24 90,-12" 
+            stroke="url(#ribbon1)" stroke-width="6" fill="none" opacity="0.6"/>
+      <path d="M-90,0 Q-60,-12 -30,0 Q0,-12 30,0 Q60,-12 90,0" 
+            stroke="url(#ribbon2)" stroke-width="5" fill="none" opacity="0.5"/>
+      <path d="M-90,12 Q-60,0 -30,12 Q0,0 30,12 Q60,0 90,12" 
+            stroke="url(#ribbon3)" stroke-width="4" fill="none" opacity="0.4"/>
+      <path d="M-90,24 Q-60,12 -30,24 Q0,12 30,24 Q60,12 90,24" 
+            stroke="url(#ribbon4)" stroke-width="3" fill="none" opacity="0.4"/>
+      
+      <!-- Pupil -->
+      <circle cx="0" cy="0" r="15" fill="black" stroke="#ccc" stroke-width="1.2"/>
+      
+      <!-- Stars -->
+      <g fill="white" stroke="white" stroke-width="1.2">
+        <path d="M0,-9 L2,-2 L9,-2 L4,1 L6,9 L0,5 L-6,9 L-4,1 L-9,-2 L-2,-2 Z"/>
+        <path d="M0,-6 L1,-1 L6,-1 L3,1 L4,6 L0,3 L-4,6 L-3,1 L-6,-1 L-1,-1 Z" opacity="0.6"/>
+      </g>
+    </g>
+    
+    <!-- Eye outline -->
+    <path d="M-120,0 C-90,-68.64 90,-68.64 120,0 C90,68.64 -90,68.64 -120,0 Z" 
+          fill="none" stroke="white" stroke-width="1.5"/>
+  </g>
+</svg>
+

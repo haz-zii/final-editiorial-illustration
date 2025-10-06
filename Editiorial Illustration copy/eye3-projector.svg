@@ -1,0 +1,43 @@
+<svg width="240" height="125" viewBox="0 0 240 125" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="eye3-clip">
+      <path d="M-120,0 C-90,-68.64 90,-68.64 120,0 C90,68.64 -90,68.64 -120,0 Z"/>
+    </clipPath>
+    <linearGradient id="spiral-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D100EF;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#D100EF;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(120, 62.5)">
+    <g clip-path="url(#eye3-clip)">
+      <!-- Fraser Spirals -->
+      <g stroke="url(#spiral-glow)" stroke-width="1.2" opacity="0.4" fill="none">
+        <!-- Outer spiral -->
+        <path d="M-60,-30 A60,60 0 0,1 60,-30 A60,60 0 0,1 60,30 A60,60 0 0,1 -60,30 A60,60 0 0,1 -60,-30"/>
+        <!-- Inner spiral -->
+        <path d="M-40,-20 A40,40 0 0,1 40,-20 A40,40 0 0,1 40,20 A40,40 0 0,1 -40,20 A40,40 0 0,1 -40,-20"/>
+        <!-- Center spiral -->
+        <path d="M-20,-10 A20,20 0 0,1 20,-10 A20,20 0 0,1 20,10 A20,20 0 0,1 -20,10 A20,20 0 0,1 -20,-10"/>
+        
+        <!-- Additional spiral details -->
+        <path d="M-50,-25 A50,50 0 0,1 50,-25 A50,50 0 0,1 50,25 A50,50 0 0,1 -50,25 A50,50 0 0,1 -50,-25"/>
+        <path d="M-30,-15 A30,30 0 0,1 30,-15 A30,30 0 0,1 30,15 A30,30 0 0,1 -30,15 A30,30 0 0,1 -30,-15"/>
+      </g>
+      
+      <!-- Pupil with reversed spiral -->
+      <g>
+        <circle cx="0" cy="0" r="15" fill="black" stroke="#ccc" stroke-width="1.2"/>
+        <g stroke="#D100EF" stroke-width="0.8" opacity="0.3" fill="none">
+          <path d="M-10,-5 A10,10 0 0,0 10,-5 A10,10 0 0,0 10,5 A10,10 0 0,0 -10,5 A10,10 0 0,0 -10,-5"/>
+          <path d="M-6,-3 A6,6 0 0,0 6,-3 A6,6 0 0,0 6,3 A6,6 0 0,0 -6,3 A6,6 0 0,0 -6,-3"/>
+        </g>
+      </g>
+    </g>
+    
+    <!-- Eye outline -->
+    <path d="M-120,0 C-90,-68.64 90,-68.64 120,0 C90,68.64 -90,68.64 -120,0 Z" 
+          fill="none" stroke="white" stroke-width="1.5"/>
+  </g>
+</svg>
+
